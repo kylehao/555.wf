@@ -31,7 +31,7 @@ header label {
   cursor: pointer;
   display: inline-block;   /* This way our labels will be side-by-side and centered in the middle of our header. Inline-block also allows for our line-height to be respected */
   line-height: 4.25em;    /* This gives us a larger clickable area*/
-  font-size: .667em;
+  font-size: 0.767em;
   font-weight: bold;
   padding: 0 1em;
 }
@@ -57,16 +57,16 @@ header label:hover {
 
 
 .slide-one {
-  background-image: url('https://jihulab.com/free163/777.wf/-/raw/7bc85dd47841eee97964e572fb9c8842229f9506/index/huandeng/images/starryFarm.jpg');
+  background-image: url('../images/1.jpg');
 }
 .slide-two {
-  background-image: url('https://jihulab.com/free163/777.wf/-/raw/7bc85dd47841eee97964e572fb9c8842229f9506/index/huandeng/images/campusDarkDays.jpg');
+  background-image: url('../images/2.jpg');
 }
 .slide-three {
-  background-image: url('https://jihulab.com/free163/777.wf/-/raw/7bc85dd47841eee97964e572fb9c8842229f9506/index/huandeng/images/autumn.jpg');
+  background-image: url('../images/3.jpg');
 }
 .slide-four {
-  background-image: url('https://jihulab.com/free163/777.wf/-/raw/7bc85dd47841eee97964e572fb9c8842229f9506/index/huandeng/images/lakehouse.jpg');
+  background-image: url('../images/4.jpg');
 }
 
 
