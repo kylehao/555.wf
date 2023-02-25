@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>纯CSS3实现的神秘雾化背景</title>
 <style>
-@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+
 body {
     font-family: 'Roboto';
     text-align: center;
@@ -22,7 +22,6 @@ body div {
     position: fixed;
     top: -10;
     width: 100%;
-    pointer-events: none;
 }
 
 body #picture {
@@ -371,9 +370,9 @@ background-color: 000;
 		
 		
 		
-<div id="picture"></div>
+<div id="picture" style="z-index:1;"></div>
 
-<div id="layer2"></div>
-<div id="layer1"></div>
+<div id="layer2" style="z-index:1;"></div>
+<div id="layer1" style="z-index:1;"></div>
 </body>
 </html>
